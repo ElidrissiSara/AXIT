@@ -1,0 +1,634 @@
+/* Color :#ffde11;   */
+
+
+body
+{
+	
+}
+
+/*tel-box*/
+
+.tel-box{
+
+	position:fixed;
+	top: 100px;
+	right: 0;
+	z-index: 9999;
+}
+
+.tel-box .tel
+{
+	float: right;
+	background-color: #000000;
+	padding: 20px;
+	color: #ffde11;
+	font-weight: bold;
+	border-radius: 10px 0px 0px 10px;
+
+}
+/*end tel-box */
+
+/* Start Navbar  */
+.bg-light {
+    background-color: #ffde11!important;
+    border-radius: 10%;
+}
+.navbar-brand 
+{
+	font-weight: bold;
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+	font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .9rem;
+    padding-left: .9rem;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover
+{
+	color: #FFF;
+	font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover
+{
+	color: #FFF;
+	
+}    
+
+/*End Navbar*/
+/*  Start Header*/
+.header
+{
+	
+	background: url('../images/head3.png') fixed top center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	color: #FFF;
+	overflow: hidden;
+}
+.header .overlay
+{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,.5);
+}
+
+.header .centering-vh
+{
+	margin-top: 30vh;
+	
+}
+
+.header .centering-vh span:first-child
+{
+	color: #ffde11;
+}
+.header .centering-vh span:nth-child(2)
+{
+	color: #000000;
+}
+
+.lead 
+{
+	font-size: 30px;
+}
+.header a
+{
+	color: #ffde11;
+	font-weight: bold;
+
+}
+#angle-down
+{
+	display: none;
+	margin-top: 110px;
+	z-index: 99999;
+	cursor: pointer;
+}
+
+@media (max-width: 991px) {
+
+#angle-down{
+	
+	margin-top: 60px;
+	z-index: 99999;
+	cursor: pointer;
+
+}
+	
+}
+/* End header*/
+
+.head-border-center:after
+{
+	content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #ffde11;
+    margin: 30px auto;
+
+
+}
+.uppercase
+{
+	text-transform: uppercase;
+}
+
+/* start services*/
+.services
+{
+	padding: 60px;
+}
+
+.services h2
+{
+	margin-bottom: 25px;
+	color: #b8bcbf;
+	font-family: 'Mali', cursive;
+}
+
+.services h4
+{
+	font-weight: bold;
+	font-weight: bold;
+    color: #7e7e7e;
+    font-family: 'Mali', cursive;
+}
+
+.services i
+{
+	width: 100px;
+	height: 100px;
+	color: #FFF;
+	border:2px solid #2cbac1 ;
+	line-height:100px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-top: 10px;
+	
+}
+
+
+.services p
+{
+	font-family: 'Mali', cursive;
+}
+
+/* end services*/
+
+/* animation icone des services  */
+.icon-block .fa-3dicon{
+	/*transform-style*/
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	/*perspective*/
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+	/*Webkit*/
+	-webkit-animation-name: rotate;
+	-webkit-animation-duration:3s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count:infinite; 
+	 -webkit-animation-fill-mode:both; 
+	 /*mozilla*/
+	-moz-animation-name: rotate;
+	-moz-animation-duration:3s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count:infinite; 
+	-moz-animation-fill-mode:both; 
+	 /*Opera*/
+	-o-animation-name: rotate;
+	-o-animation-duration:3s;
+	-o-animation-timing-function: linear;
+	-o-animation-iteration-count:infinite; 
+	-o-animation-fill-mode:both; 
+	 /*IE 10*/
+	-ms-animation-name: rotate;
+	-ms-animation-duration:3s;
+	-ms-animation-timing-function: linear;
+	-ms-animation-iteration-count:infinite; 
+	-ms-animation-fill-mode:both; 
+	
+	 /*Default*/
+	animation-name: rotate;
+	animation-duration:3s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite; 
+	animation-fill-mode:both; 
+	color:#ffde11;
+	margin:30px;
+}
+
+
+@-webkit-keyframes rotate {
+ 	0% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 -webkit-transform: rotateY(0deg); 
+	} 
+ 
+	25% {
+		  text-shadow: 1px 1px 1px #CCC, -2px 1px 1px #CCC, -3px 1px 1px #CCC, -4px 1px 1px #CCC,-4px 1px 1px #CCC,
+		 -5px 1px 1px #CCC,-6px 1px 1px #CCC,-7px 1px 1px #CCC,-8px 1px 1px #CCC,-9px 1px 1px #CCC,-10px 1px 1px #CCC,
+		 -11px 1px 1px #CCC,-12px 1px 1px #CCC,-13px 1px 1px #CCC,-14px 1px 1px #CCC,-15px 1px 1px #CCC,-16px 1px 1px #CCC,
+		 -17px 1px 1px #CCC,-18px 1px 1px #CCC,-19px 1px 1px #CCC,-20px 1px 1px #CCC; 
+		 -webkit-transform: rotateY(40deg); 
+	}
+	50% {
+		 text-shadow: 0px 0px 0px #CCC;
+		 -webkit-transform: rotateY(0deg); 
+	} 
+ 
+	75% {
+		  text-shadow: 1px 1px 1px #CCC, 2px 1px 1px #CCC, 3px 1px 1px #CCC, 4px 1px 1px #CCC,4px 1px 1px #CCC,
+		 5px 1px 1px #CCC,6px 1px 1px #CCC,7px 1px 1px #CCC,8px 1px 1px #CCC,9px 1px 1px #CCC,10px 1px 1px #CCC,
+		 11px 1px 1px #CCC,12px 1px 1px #CCC,13px 1px 1px #CCC,14px 1px 1px #CCC,15px 1px 1px #CCC,16px 1px 1px #CCC,
+		 17px 1px 1px #CCC,18px 1px 1px #CCC,19px 1px 1px #CCC,20px 1px 1px #CCC; 
+		 -webkit-transform: rotateY(-40deg); 
+	}
+	100% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 -webkit-transform: rotateY(0deg); 
+	} 
+}
+
+
+@-moz-keyframes rotate {
+ 	0% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 -moz-transform: rotateY(0deg); 
+	} 
+ 
+	25% {
+		  text-shadow: 1px 1px 1px #CCC, -2px 1px 1px #CCC, -3px 1px 1px #CCC, -4px 1px 1px #CCC,-4px 1px 1px #CCC,
+		 -5px 1px 1px #CCC,-6px 1px 1px #CCC,-7px 1px 1px #CCC,-8px 1px 1px #CCC,-9px 1px 1px #CCC,-10px 1px 1px #CCC,
+		 -11px 1px 1px #CCC,-12px 1px 1px #CCC,-13px 1px 1px #CCC,-14px 1px 1px #CCC,-15px 1px 1px #CCC,-16px 1px 1px #CCC,
+		 -17px 1px 1px #CCC,-18px 1px 1px #CCC,-19px 1px 1px #CCC,-20px 1px 1px #CCC; 
+		 -moz-transform: rotateY(40deg); 
+	}
+	50% {
+		 text-shadow: 0px 0px 0px #CCC;
+		 -moz-transform: rotateY(0deg); 
+	} 
+ 
+	75% {
+		  text-shadow: 1px 1px 1px #CCC, 2px 1px 1px #CCC, 3px 1px 1px #CCC, 4px 1px 1px #CCC,4px 1px 1px #CCC,
+		 5px 1px 1px #CCC,6px 1px 1px #CCC,7px 1px 1px #CCC,8px 1px 1px #CCC,9px 1px 1px #CCC,10px 1px 1px #CCC,
+		 11px 1px 1px #CCC,12px 1px 1px #CCC,13px 1px 1px #CCC,14px 1px 1px #CCC,15px 1px 1px #CCC,16px 1px 1px #CCC,
+		 17px 1px 1px #CCC,18px 1px 1px #CCC,19px 1px 1px #CCC,20px 1px 1px #CCC; 
+		 -moz-transform: rotateY(-40deg); 
+	}
+	100% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 -moz-transform: rotateY(0deg); 
+	} 
+}
+@-o-keyframes rotate {
+ 	0% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 -o-transform: rotateY(0deg); 
+	} 
+ 
+	25% {
+		  text-shadow: 1px 1px 1px #CCC, -2px 1px 1px #CCC, -3px 1px 1px #CCC, -4px 1px 1px #CCC,-4px 1px 1px #CCC,
+		 -5px 1px 1px #CCC,-6px 1px 1px #CCC,-7px 1px 1px #CCC,-8px 1px 1px #CCC,-9px 1px 1px #CCC,-10px 1px 1px #CCC,
+		 -11px 1px 1px #CCC,-12px 1px 1px #CCC,-13px 1px 1px #CCC,-14px 1px 1px #CCC,-15px 1px 1px #CCC,-16px 1px 1px #CCC,
+		 -17px 1px 1px #CCC,-18px 1px 1px #CCC,-19px 1px 1px #CCC,-20px 1px 1px #CCC; 
+		 -o-transform: rotateY(40deg); 
+	}
+	50% {
+		 text-shadow: 0px 0px 0px #CCC;
+		 -o-transform: rotateY(0deg); 
+	} 
+ 
+	75% {
+		  text-shadow: 1px 1px 1px #CCC, 2px 1px 1px #CCC, 3px 1px 1px #CCC, 4px 1px 1px #CCC,4px 1px 1px #CCC,
+		 5px 1px 1px #CCC,6px 1px 1px #CCC,7px 1px 1px #CCC,8px 1px 1px #CCC,9px 1px 1px #CCC,10px 1px 1px #CCC,
+		 11px 1px 1px #CCC,12px 1px 1px #CCC,13px 1px 1px #CCC,14px 1px 1px #CCC,15px 1px 1px #CCC,16px 1px 1px #CCC,
+		 17px 1px 1px #CCC,18px 1px 1px #CCC,19px 1px 1px #CCC,20px 1px 1px #CCC; 
+		 -o-transform: rotateY(-40deg); 
+	}
+	100% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 -o-transform: rotateY(0deg); 
+	} 
+}
+
+@keyframes rotate {
+ 	0% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 transform: rotateY(0deg); 
+	} 
+ 
+	25% {
+		  text-shadow: 1px 1px 1px #CCC, -2px 1px 1px #CCC, -3px 1px 1px #CCC, -4px 1px 1px #CCC,-4px 1px 1px #CCC,
+		 -5px 1px 1px #CCC,-6px 1px 1px #CCC,-7px 1px 1px #CCC,-8px 1px 1px #CCC,-9px 1px 1px #CCC,-10px 1px 1px #CCC,
+		 -11px 1px 1px #CCC,-12px 1px 1px #CCC,-13px 1px 1px #CCC,-14px 1px 1px #CCC,-15px 1px 1px #CCC,-16px 1px 1px #CCC,
+		 -17px 1px 1px #CCC,-18px 1px 1px #CCC,-19px 1px 1px #CCC,-20px 1px 1px #CCC; 
+		 transform: rotateY(40deg); 
+	}
+	50% {
+		 text-shadow: 0px 0px 0px #CCC;
+		 transform: rotateY(0deg); 
+	} 
+ 
+	75% {
+		  text-shadow: 1px 1px 1px #CCC, 2px 1px 1px #CCC, 3px 1px 1px #CCC, 4px 1px 1px #CCC,4px 1px 1px #CCC,
+		 5px 1px 1px #CCC,6px 1px 1px #CCC,7px 1px 1px #CCC,8px 1px 1px #CCC,9px 1px 1px #CCC,10px 1px 1px #CCC,
+		 11px 1px 1px #CCC,12px 1px 1px #CCC,13px 1px 1px #CCC,14px 1px 1px #CCC,15px 1px 1px #CCC,16px 1px 1px #CCC,
+		 17px 1px 1px #CCC,18px 1px 1px #CCC,19px 1px 1px #CCC,20px 1px 1px #CCC; 
+		 transform: rotateY(-40deg); 
+	}
+	100% {
+		 text-shadow: 1px 1px 1px #CCC;
+		 transform: rotateY(0deg); 
+	} 
+}
+/* end animation icon services */
+
+
+/*Start Slider*/
+.slider
+{
+	 background: linear-gradient(to top,#efefef , 55%, white);
+	padding-top: 10px;
+	
+
+}
+.slider .presentation h2
+{
+	margin-bottom: 25px;
+	font-weight: bold;
+	color: #b8bcbf;
+	font-family: 'Mali', cursive;
+
+}
+.slider .presentation p
+{
+	font-family: 'Mali', cursive;
+	margin-bottom: 50px;
+}
+
+.slider .carousel-inner
+{
+	display: flex;
+	justify-content: left;
+
+}
+
+
+.slider .carousel-inner ul
+{
+	position: absolute;
+	font-size: 27px;
+	max-width: 200px;
+	z-index: 3;
+	color:#b8bcbf;
+	line-height: 1.5;
+	left: 100px;
+	background: linear-gradient(to top,#efefef , 90%, white);
+	height: 150%;
+	padding-top: 40px;
+	padding-left: 20px;
+	font-family: 'Mali', cursive;
+	font-weight: bold;
+	 transform: rotate(10deg);
+	 margin-top: -25px;
+}
+.slider .carousel-inner ul li
+{
+	transform: rotate(-10deg);
+}	 
+}
+@media  screen and (min-width : 992px) and (max-width: 1024px)
+{
+	.head-border-center:after
+	{
+	
+	margin: 30px auto; 
+    background-color: red;
+	}
+}
+@media  screen and (min-width : 781px) and (max-width: 991px)  /*correct*/
+{
+	.head-border-center:after
+{
+    margin: 10px auto; 
+    background-color: #000;  
+}
+}
+@media only screen and (min-width : 480px) and (max-width: 780px) /*correct*/
+{
+	.slider .carousel-inner ul
+	{
+		font-size: 17px;
+	   padding-top: 40px;
+	   color: red;
+
+	}
+}
+@media only screen and (min-width : 480px) and (max-width: 780px)  /*correct*/
+{
+.head-border-center:after
+{
+
+    margin: 18px auto;
+}
+}
+
+.slider .carousel-inner h1 span
+{
+	background-color: #ec1c23;
+	display: inline-block;
+	padding:2px 5px;
+}
+.slider .carossel-item
+{
+	background-size: cover;
+}
+
+/* Start Gallery */
+
+.gallery
+{
+	padding-top: 70px;
+	padding-bottom: 35px;
+	background: linear-gradient(to top,white , 55%, #efefef);
+}
+
+.gallery h2
+{
+	margin-bottom: 25px;
+	font-weight: bold;
+	color: #b8bcbf;
+	font-family: 'Mali', cursive;
+
+}
+.gallery img
+{
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+
+.gallery .classement .col-md-4,
+.gallery .classement .col-md-8,
+.gallery .classement .col-md-6,
+.gallery .classement .col-md-12
+
+{
+	padding: 2px;
+}
+
+.gallery .classement .pic2
+{
+	margin-top: 3px;
+}
+
+.gallery .col-md-12 .long img
+{
+	min-height: 300px;
+}
+/* End Gallery*/
+
+
+/* Contact-us */
+
+
+.contact-us {
+	min-height: 300px;
+	padding-bottom: 60px;
+	padding-top: 35px;
+}
+
+.contact-us h2
+{
+	margin-bottom: 25px;
+	font-weight: bold;
+	color: #b8bcbf;
+	font-family: 'Mali', cursive;
+
+}
+
+.contact-us h4
+{
+	font-weight: bold;
+	font-weight: bold;
+    color: #7e7e7e;
+    font-family: 'Mali', cursive;
+}
+
+
+.contact-us .telephone,
+.contact-us .mail,
+.contact-us .suivie-nous,
+.contact-us .adresse
+{
+	font-weight: bold;
+	font-family: 'Mali', cursive;
+	
+}
+.contact-us .suivie ul li
+{
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.contact-us .suivie i
+{
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-us .fa-facebook
+{
+	color: #3b5998;
+}
+.contact-us .fa-instagram
+{
+
+	color: #e1306c;
+}
+.contact-us .fa-twitter
+{
+	color: #1da1f2;
+}
+
+.contact-us .fa-facebook:hover,
+.contact-us .fa-instagram:hover,
+.contact-us .fa-twitter:hover
+
+{
+	font-size: 40px;
+}
+
+
+.map-container-2
+{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.map-container-2 iframe
+{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.contact-us textarea{height: 108px;}
+
+.contact-us input[type="text"],
+.contact-us textarea{
+	background: rgba(0,1,8,0.2);
+	color: #FFF;
+	border:none;
+}
+.contact-us .form1
+{
+	margin-top: 50px;
+}
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+/* Contact us  */
+
+
+/* Footer*/
+.footer
+{
+	background-color: #000;
+	font-family: 'Mali', cursive;
+	color: #FFF;
+	padding: 1px;
+
+}
+/*Footer*/
